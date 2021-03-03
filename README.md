@@ -15,9 +15,14 @@ Main use case (ICO):
   - Activate solidity compiler and compile contract
   - Deploy using injected web3. Initial supply will be sent to contract deployer
   - Write down address of contract, you'll use it in order to import new token in your wallet
-    
 
 # Testing
+We will use temporary develop node provided by truffle:
+```
+truffle test
+```
+
+# Manual Testing
 We will use temporary develop node provided by truffle:
 ```
 truffle develop
